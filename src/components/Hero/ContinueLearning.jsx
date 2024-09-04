@@ -1,7 +1,7 @@
 
 const ContinueLearning = () => {
   return (
-    <div>ContinueLearning</div>
+    <div className="bg-zinc-100 w-full h-full">ContinueLearning</div>
   )
 }
 
