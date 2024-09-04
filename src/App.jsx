@@ -1,9 +1,14 @@
-import React from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Navside from "./components/Navbar/Navside"
+import Hero from "./components/Hero/Hero";
 const App = () => {
   return (
-    <div>
+    <div className="flex flex-row">
+      <Navside />
+      <div>
       <Navbar />
+      <Hero />
+      </div>
     </div>
   )
 };
