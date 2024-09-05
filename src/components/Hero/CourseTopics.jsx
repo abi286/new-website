@@ -31,7 +31,7 @@ const CourseTopics = () => {
   return (
     <div className="bg-zinc-100 ">
       <h1 className="pt-12 pl-10 font-bold">Course Topics</h1>
-      <div className="bg-white h-96 w-80 rounded-2xl ml-10 mt-5 mr-10 flex items-center justify-center">
+      <div className="bg-white h-96 w-80 rounded-2xl ml-10 mt-5 mr-10 flex items-center justify-center shadow-sm">
         <Doughnut data={data} options={options} />
       </div>
     </div>

@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="flex flex-row">
       <Navside />
-      <div>
+      <div className="w-full h-full">
       <Navbar />
       <Hero />
       </div>
