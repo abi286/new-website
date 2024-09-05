@@ -13,7 +13,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Try search programming course"
-              className="w-[500px]  h-max group-hover:w-[300px] pl-11 py-2 pr-36 rounded-full border-0 bg-[#EFEFEF]"
+              className="w-[500px]  h-max group-hover:w-[300px] pl-11 py-2 pr-36 rounded-full border-0 bg-[#F7F8FA]"
             />
             <Search
               size={50}

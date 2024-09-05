@@ -2,7 +2,7 @@ import { BookmarkMinus } from 'lucide-react';
 
 const PopularCourse = () => {
   return (
-    <div className="bg-zinc-100 w-[1010px] h-[420px]">
+    <div className="bg-[#F7F8FA] w-[1010px] h-[420px]">
         <div className="flex justify-between ">
           <h1 className="pl-10 font-semibold text-xl text-[#222F30]">Popular Course</h1>
           <p className=" text-[#7455F7] font-medium text-sm cursor-pointer mr-10">View All</p>
