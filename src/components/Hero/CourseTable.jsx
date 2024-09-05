@@ -5,11 +5,11 @@ const CourseTable = () => {
       <table className="min-w-full bg-transparent ">
         <thead>
           <tr className="bg-transparent border-b border-gray-200  text-gray-500 text-base ">
-            <th className="py-3 text-left font-light">Course Name</th>
-            <th className="py-3 text-left font-light">Lessons</th>
-            <th className="py-3 text-left font-light">Status</th>
-            <th className="py-3 text-left font-light">Level</th>
-            <th className="py-3 text-left font-light">Category</th>
+            <th className="pt-3 pb-1 text-left font-light">Course Name</th>
+            <th className="pt-3 pb-1 text-left font-light">Lessons</th>
+            <th className="pt-3 pb-1 text-left font-light">Status</th>
+            <th className="pt-3 pb-1 text-left font-light">Level</th>
+            <th className="pt-3 pb-1 text-left font-light">Category</th>
           </tr>
         </thead>
         <tbody className="text-black text-sm ">

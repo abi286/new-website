@@ -5,8 +5,8 @@ import { Clock4 } from "lucide-react";
 
 const Dashboard = () => {
   return (
-    <div className="bg-zinc-100 w-full h-48">
-      <h1 className="mt-12 ml-10 font-bold">Dashboard</h1>
+    <div className="bg-zinc-100 w-full h-56">
+      <h1 className="pt-12 pl-10 font-bold">Dashboard</h1>
       <div className="flex flex-row gap-4 mt-5">
         <div className=" ml-10 h-28 w-36 bg-white border-spacing-2 border rounded-lg border-gray-300">
           <div className=" flex gap-1 ml-4 mt-5">

@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
-import Navside from "./components/Navbar/Navside"
+import Navside from "./components/Navbar/Navside";
 import Hero from "./components/Hero/Hero";
 const App = () => {
   return (

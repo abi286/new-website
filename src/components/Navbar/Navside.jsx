@@ -10,17 +10,17 @@ import Footer from "./Footer";
 
 const Navside = () => {
   return (
-    <div>
-      <div className=" min-w-80  h-dvh border-r  border-gray-300">
+    <div className="border-r  border-gray-300">
+      <div className=" min-w-64 w-64 h-dvh ">
         <div className="fex flex-col">
           <h1 className="text-3xl text-[#7455F7] font-bold px-7 pt-10 pb-2">
             T-Course
           </h1>
         </div>
-        <button className="inline-flex items-center justify-center border border-input bg-white rounded-2xl p-1 ml-12 translate-x-72 ">
+        <button className="inline-flex items-center justify-center border border-input bg-white rounded-2xl p-1 ml-12 translate-x-48">
           <ChevronLeft />
         </button>
-        <div className="h-3/6 mt-10 border-b border-gray-300">
+        <div className="h-96 mt-10  border-b border-gray-300">
           <div className="px-5 py-3">
           <a href="#dashboard" >
                 <span className="flex gap-2 bg-[#F2EEFE] text-[#7455F7] font-bold text-lg pr-44 py-3 rounded-3xl">
