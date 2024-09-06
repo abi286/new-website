@@ -7,7 +7,7 @@ const ContinueLearning = () => {
         Continue Learning
       </h1>
       <div className="h-96 flex flex-col mt-3 gap-5">
-        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mt-5 mr-10 shadow-xl shadow-gray-100 flex items-center">
+        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mt-5 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
             <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
             <div>
@@ -36,7 +36,7 @@ const ContinueLearning = () => {
           </div>
         </div>
 
-        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-100 flex items-center">
+        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
             <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
             <div>
@@ -63,7 +63,7 @@ const ContinueLearning = () => {
           </div>
         </div>
 
-        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-100 flex items-center">
+        <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
             <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
             <div>
