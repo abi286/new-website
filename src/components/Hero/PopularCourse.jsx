@@ -9,7 +9,7 @@ const PopularCourse = () => {
         </div>
         
         <div className="flex flex-row gap-5 mt-5">
-        <div className=" ml-10 h-[350px] w-[300px] bg-white rounded-2xl shadow-sm">
+        <div className=" ml-10 h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
           <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
           <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$400</span></div>
@@ -22,7 +22,7 @@ const PopularCourse = () => {
           <p className="text-base ml-4 mt-2 ">16 Lessons • 48 Hours</p>
         </div>
 
-        <div className=" h-[350px] w-[300px] bg-white rounded-2xl shadow-sm">
+        <div className=" h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
           <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
           <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$100</span></div>
@@ -35,7 +35,7 @@ const PopularCourse = () => {
           <p className="text-base ml-4 mt-2 ">30 Lessons • 48 Hours</p>
         </div>
 
-        <div className="h-[350px] w-[300px] bg-white rounded-2xl shadow-sm">
+        <div className="h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
           <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
           <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$100</span></div>
