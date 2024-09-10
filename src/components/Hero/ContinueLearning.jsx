@@ -1,4 +1,4 @@
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import { Circle } from "rc-progress";
 
 const ContinueLearning = () => {
   return (
@@ -20,16 +20,16 @@ const ContinueLearning = () => {
               <p className="text-xs ml-2 mt-2  text-[#61656C]">12/16 Lessons</p>
             </div>
             <div className="w-12 h-12 ml-40 text-lg">
-              <CircularProgressbar
-                value={75}
-                styles={buildStyles({
-                  pathColor: `#7C3AED`, 
-                  strokehWidth: 12,
-                  trailColor: "#E5E7EB",
-                  strokeLinecap: "round",
-                })}
+              <Circle 
+              percent={75}
+              strokeColor="#7455F7"
+              strokeWidth={12}
+              trailColor="#D9D9D9"
+              trailWidth={12}
+              strokeLinecap="round"
+              gapDegree={0}
               />
-              <div className="-translate-y-[33px] translate-x-[10px] text-sm text-[#333]">
+              <div className="-translate-y-[33px] translate-x-[10px] text-xs text-[#333] font-semibold">
                 75%
               </div>
             </div>
@@ -47,16 +47,15 @@ const ContinueLearning = () => {
               <p className="text-xs ml-2 mt-2  text-[#61656C]">20/30 Lessons</p>
             </div>
             <div className="w-12 h-12 ml-36 text-lg">
-              <CircularProgressbar
-                value={60}
-                styles={buildStyles({
-                  pathColor: `#7C3AED`, // Purple color for the progress
-                  strokehWidth: 12,
-                  trailColor: "#E5E7EB", // Light gray background color
-                  strokeLinecap: "round",
-                })}
+            <Circle 
+              percent={60}
+              strokeColor="#7455F7"
+              strokeWidth={12}
+              trailColor="#D9D9D9"
+              trailWidth={12}
+              strokeLinecap="round"
               />
-              <div className="-translate-y-[33px] translate-x-[10px] text-sm text-[#333]">
+              <div className="-translate-y-[33px] translate-x-[10px] text-xs text-[#333] font-semibold">
                 60%
               </div>
             </div>
@@ -74,16 +73,15 @@ const ContinueLearning = () => {
               <p className="text-xs ml-2 mt-2  text-[#61656C]">8/20 Lessons</p>
             </div>
             <div className="w-12 h-12 ml-28 text-lg">
-              <CircularProgressbar
-                value={40}
-                styles={buildStyles({
-                  pathColor: `#7C3AED`, // Purple color for the progress
-                  strokehWidth: 12,
-                  trailColor: "#E5E7EB", // Light gray background color
-                  strokeLinecap: "round",
-                })}
+            <Circle 
+              percent={40}
+              strokeColor="#7455F7"
+              strokeWidth={12}
+              trailColor="#D9D9D9"
+              trailWidth={12}
+              strokeLinecap="round"
               />
-              <div className="-translate-y-[33px] translate-x-[10px] text-sm text-[#333]">
+              <div className="-translate-y-[33px] translate-x-[10px] text-xs text-[#333] font-semibold">
                 40%
               </div>
             </div>
