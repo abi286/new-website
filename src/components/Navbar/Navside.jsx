@@ -82,17 +82,17 @@ const Navside = () => {
         <div className={`flex flex-col gap-8 h-[435px] duration-200 mt-4 ${expanded ? "w-72" : "w-[88px]"}`}>
           <ul>
             {Menus.map((menu, index) => (
-              <div key={index} className="px-5 py-3 mb-2">
+              <div key={index} className="px-5 py-1 ">
                 <a href={`#${menu.title.replace(" ", "")}`}>
                   <span
                     className={`flex gap-4 rounded ${
                       menu.title === "Dashboard"
                         ? "py-3 rounded-s-full rounded-r-full bg-[#F2EEFE] text-[#7455F7] font-bold"
-                        : "text-[#5C6067]"
+                        : "py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE]"
                     } `}
                   >
                     {menu.icon}
-                    <span className={`${!expanded && "hidden"}`}>
+                    <span className={`${!expanded && "hidden"} origin-left duration-200`}>
                       {menu.title}
                     </span>
                   </span>
@@ -100,14 +100,14 @@ const Navside = () => {
               </div>
             ))}
           </ul>
-          <div className="border-b border-gray-300  w-60 ml-5"></div>
+          <div className={`border-b border-gray-300  w-60 ml-5 ${expanded ? "w-72" : "w-[42px]"}`}></div>
           <ul>
             {footerMenus.map((menu, index) => (
-              <div key={index} className="px-5 py-3 mb-2">
+              <div key={index} className={`px-5 py-1 mb-2`}>
                 <a href={menu.href}>
-                  <span className="flex gap-2 text-[#5C6067]">
+                  <span className="flex gap-4 py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE]">
                     {menu.icon}
-                    <span className={`${!expanded && "hidden"}`}>
+                    <span className={`${!expanded && "hidden"} origin-left duration-200`}>
                       {menu.title}
                     </span>
                   </span>
