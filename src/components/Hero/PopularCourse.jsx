@@ -11,8 +11,8 @@ const PopularCourse = () => {
         <div className="flex flex-row gap-5 mt-5">
         <div className=" ml-10 h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
-          <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
-          <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$400</span></div>
+            <img src="src/assets/course-1.jpg" alt="" className='h-48 w-[268px] rounded-2xl mx-4 my-4'/>
+          <div className="absolute text-[#7455F7] translate-x-[212px] -translate-y-16"><span className="px-[9px] py-[7px] rounded-2xl bg-white">$400</span></div>
           </div>
           <div className='flex justify-between'>
           <p className="text-sm font-semibold text-[#7455F7] ml-4 ">DESIGN</p>
@@ -24,8 +24,8 @@ const PopularCourse = () => {
 
         <div className=" h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
-          <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
-          <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$100</span></div>
+            <img src="src/assets/course2.jpeg" alt="" className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"/>
+          <div className="absolute text-[#7455F7] translate-x-[212px] -translate-y-16"><span className="px-[9px] py-[7px] rounded-2xl bg-white">$100</span></div>
           </div>
           <div className='flex justify-between'>
           <p className="text-sm font-semibold text-[#7455F7] ml-4 ">BUSINESS</p>
@@ -37,8 +37,8 @@ const PopularCourse = () => {
 
         <div className="h-[350px] w-[300px] bg-white rounded-2xl shadow-xl shadow-gray-200">
           <div className="">
-          <div className="h-48 w-[268px] rounded-2xl mx-4 my-4 bg-orange-500"></div>
-          <div className="absolute text-[#7455F7] translate-x-56 -translate-y-14"><span className="px-1 py-1 rounded-2xl bg-white">$100</span></div>
+          <img src="src/assets/course3.jpeg" alt="" className="h-48 w-[268px] rounded-2xl mx-4 my-4"/>
+          <div className="absolute text-[#7455F7] translate-x-[212px] -translate-y-16"><span className="px-[9px] py-[7px] rounded-2xl bg-white">$100</span></div>
           </div>
           <div className='flex justify-between'>
           <p className="text-sm font-semibold text-[#7455F7] ml-4 ">CODE</p>

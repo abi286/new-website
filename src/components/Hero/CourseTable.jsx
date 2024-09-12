@@ -15,7 +15,7 @@ const CourseTable = () => {
         <tbody className="text-[#444F50] text-[18px] font-medium ">
           <tr className=" hover:bg-gray-100">
             <td className="flex items-center py-2 pt-6 text-left ">
-              <div className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"></div>
+              <img src="src/assets/course8.jpeg" alt="" className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"/>
               Mastering Design System
             </td>
             <td className="py-3 text-left">15<span className="font-light text-[#8F9197]">/15</span></td>
@@ -25,7 +25,7 @@ const CourseTable = () => {
           </tr>
           <tr className=" hover:bg-gray-100">
             <td className="py-2 text-left flex items-center">
-              <div className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"></div>
+            <img src="src/assets/course4.jpeg" alt="" className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"/>
               UI/UX Design
             </td>
             <td className="py-3 text-left">12<span className="font-light text-[#8F9197]">/15</span></td>
@@ -35,7 +35,7 @@ const CourseTable = () => {
           </tr>
           <tr className=" hover:bg-gray-100">
             <td className="py-2 text-left flex items-center">
-              <div className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"></div>
+            <img src="src/assets/course7.jpeg" alt="" className="h-14 w-14 mr-3 bg-violet-300 rounded-xl"/>
               Learn Data Analyst
             </td>
             <td className="py-3 text-left">8<span className="font-light text-[#8F9197]">/20</span></td>

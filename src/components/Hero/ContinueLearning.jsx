@@ -9,7 +9,7 @@ const ContinueLearning = () => {
       <div className="h-96 flex flex-col mt-3 gap-5">
         <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mt-5 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
-            <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
+          <img src="src/assets/course4.jpeg" alt="" className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"/>
             <div>
               <p className="text-xs font-semibold text-[#7455F7] ml-2 ">
                 DESIGN
@@ -38,7 +38,7 @@ const ContinueLearning = () => {
 
         <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
-            <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
+          <img src="src/assets/course5.jpeg" alt="" className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg "/>
             <div>
               <p className="text-xs font-semibold text-[#7455F7] ml-2 ">CODE</p>
               <h3 className="text-base font-semibold text-[#222F30] ml-2 ">
@@ -64,7 +64,7 @@ const ContinueLearning = () => {
 
         <div className="bg-white h-[105px] w-[445px] rounded-2xl ml-10 mr-10 shadow-xl shadow-gray-200 flex items-center">
           <div className="flex flex-row items-center">
-            <div className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"></div>
+            <img src="src/assets/course7.jpeg" alt="" className="h-16 w-16 ml-4 mr-3 bg-pink-200 rounded-lg"/>
             <div>
               <p className="text-xs font-semibold text-[#7455F7] ml-2 ">DATA</p>
               <h3 className="text-base font-semibold text-[#222F30] ml-2 ">
