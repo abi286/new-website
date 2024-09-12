@@ -55,14 +55,20 @@ const Navside = () => {
     },
   ];
   return (
-    <div className={`border-r  border-gray-300 duration-300 ${expanded ? "w-72" : "w-20"}`}>
-      <div className={`${expanded ? "w-72" : "w-20"} duration-200 min-w-52 w-72  h-full`}>
-        <div
-          className={`flex px-7 pt-8 pb-2 overflow-hidden transition-all `}
-        >
+    <div
+      className={`border-r  border-gray-300 duration-300 ${
+        expanded ? "w-72" : "w-20"
+      }`}
+    >
+      <div
+        className={`${
+          expanded ? "w-72" : "w-20"
+        } duration-200 min-w-52 w-72  h-full`}
+      >
+        <div className={`flex px-7 pt-8 pb-2 overflow-hidden transition-all `}>
           <h1 className={`text-3xl text-[#7455F7] font-bold `}>T</h1>
           <h1
-            className={`text-3xl text-[#7455F7] font-bold  overflow-hidden transition-all ${
+            className={`text-3xl text-[#7455F7] font-bold duration-200  overflow-hidden transition-all ${
               !expanded && "scale-0"
             }`}
           >
@@ -72,27 +78,33 @@ const Navside = () => {
         <button
           onClick={() => setExpanded((curr) => !curr)}
           className={` ${
-            expanded ? "translate-x-[221px]" : ""
-          } inline-flex items-center justify-center border border-input bg-white rounded-3xl p-2 ml-12 mt-2  duration-300 ${
+            expanded ? "translate-x-[212px]" : ""
+          } inline-flex items-center justify-center border border-input bg-white rounded-3xl p-2 ml-12 mt-2  duration-200 ${
             !expanded && "rotate-180"
           }`}
         >
           <ChevronLeft />
         </button>
-        <div className={`flex flex-col gap-8 h-[435px] duration-200 mt-4 ${expanded ? "w-72" : "w-[88px]"}`}>
+        <div
+          className={`flex flex-col gap-8 h-[435px] duration-200 mt-4 ${
+            expanded ? "w-72" : "w-[88px]"
+          }`}
+        >
           <ul>
             {Menus.map((menu, index) => (
-              <div key={index} className="px-5 py-1 ">
+              <div key={index} className={`px-5 py-1 mb-2`}>
                 <a href={`#${menu.title.replace(" ", "")}`}>
                   <span
-                    className={`flex gap-4 rounded ${
-                      menu.title === "Dashboard"
-                        ? "py-3 rounded-s-full rounded-r-full bg-[#F2EEFE] text-[#7455F7] font-bold"
-                        : "py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE]"
-                    } `}
+                    className={`flex gap-4 py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE] ${
+                      index === 0 ? "font-bold bg-[#F2EEFE] !text-[#7455F7]" : ""
+                    }`}
                   >
                     {menu.icon}
-                    <span className={`${!expanded && "hidden"} origin-left duration-200`}>
+                    <span
+                      className={`${
+                        !expanded && "hidden"
+                      } origin-left duration-200`}
+                    >
                       {menu.title}
                     </span>
                   </span>
@@ -100,14 +112,22 @@ const Navside = () => {
               </div>
             ))}
           </ul>
-          <div className={`border-b border-gray-300  w-60 ml-5 ${expanded ? "w-72" : "w-[42px]"}`}></div>
+          <div
+            className={`border-b border-gray-300  w-60 ml-5 duration-200${
+              expanded ? "w-72" : "w-[42px]"
+            }`}
+          ></div>
           <ul>
             {footerMenus.map((menu, index) => (
               <div key={index} className={`px-5 py-1 mb-2`}>
                 <a href={menu.href}>
-                  <span className="flex gap-4 py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE]">
+                  <span className="flex gap-4 py-3 rounded-s-full rounded-r-full text-[#5C6067] hover:bg-[#F2EEFE] duration-200">
                     {menu.icon}
-                    <span className={`${!expanded && "hidden"} origin-left duration-200`}>
+                    <span
+                      className={`${
+                        !expanded && "hidden"
+                      } origin-left duration-200`}
+                    >
                       {menu.title}
                     </span>
                   </span>
